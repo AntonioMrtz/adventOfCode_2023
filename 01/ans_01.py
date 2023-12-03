@@ -93,7 +93,6 @@ def sum_calibration_values(mode: int):
     sum_total_calibrations = 0
 
     with open('01/input_01.txt', mode='r', encoding='utf-8') as calibration_file:
-    #with open('prueba.txt', mode='r', encoding='utf-8') as calibration_file:
 
         line: str = calibration_file.readline()
 
